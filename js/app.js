@@ -63,6 +63,7 @@ const loadCountryDetails= countryCode=>{
 }
 const displayCountryDeatils = item=>{
     window.scrollTo(0,40)
+    countryDetails.innerHTML='';
     const div =document.createElement('div')
     div.innerHTML=`
      <div class="col-md-12">
